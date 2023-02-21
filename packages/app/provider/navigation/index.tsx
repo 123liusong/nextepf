@@ -14,8 +14,16 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
           config: {
             initialRouteName: 'home',
             screens: {
-              home: '',
+              'sign-in': '',
               'user-detail': 'user/:id',
+              'sign-up': 'signup',
+              main: 'main',
+              schedule: 'main/schedule',
+              team: 'main/team',
+              explor: 'main/explor',
+              profile: 'main/profile',
+              wschedule: 'main/schedule/wschedule',
+              dschedule: 'main/schedule/dschedule',
             },
           },
         }),
